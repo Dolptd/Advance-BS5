@@ -4,15 +4,205 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Dolptd.me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        
-    </div>
+    <!-- สร้างเมนู -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Cat World</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar1" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-success" type="submit">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- การสร้าง Slider -->
+    <section id="slider">
+         <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+             <ol class="carousel-indicators">
+                 <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+                 <button data-bs-target="#mySlider" data-bs-slide-to="1"></button>
+                 <button data-bs-target="#mySlider" data-bs-slide-to="2"></button>
+                 <button data-bs-target="#mySlider" data-bs-slide-to="3"></button>
+             </ol>
+             <div class="carousel-inner">
+                 <div class="carousel-item carousel-image-1 active">
+                     <div class="container">
+                         <div class="carousel-caption d-none d-sm-block">
+                         </div>
+                     </div>
+                 </div>
+                 <div class="carousel-item carousel-image-2 ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                        </div>
+                    </div>
+                 </div>
+                 <div class="carousel-item carousel-image-3 ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                        </div>
+                    </div>
+                 </div>
+                 <div class="carousel-item carousel-image-4 ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                        </div>
+                    </div>
+                 </div>
+                 <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                     <span class="carousel-control-prev-icon"></span>
+                 </button>
+                 <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+             </div>
+         </div>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- Service Section -->
+    <section id="service" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-user-tie fa-3x mb-2"></i>
+                    <h3>CAT TYPE</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam libero ab deleniti mollitia aperiam ipsum odio totam sunt voluptas sapiente.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-camera fa-3x mb-2"></i>
+                    <h3>CAT PHOTO</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam libero ab deleniti mollitia aperiam ipsum odio totam sunt voluptas sapiente.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-photo-video fa-3x mb-2"></i>
+                    <h3>DECORATION</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam libero ab deleniti mollitia aperiam ipsum odio totam sunt voluptas sapiente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about -->
+    <section id="about" class="p-5">
+        <div class="dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container pt-5">
+                        <h1>ABOUT US</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium blanditiis iste quibusdam. Eos impedit soluta asperiores expedita corrupti sequi quisquam, minus, non ipsa nostrum recusandae obcaecati consequuntur esse in voluptatum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallary -->
+    <section id="gallary" class="p-5">
+        <div class="container">
+            <h1 class="text-center">CAT CATALOG</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus magni earum tenetur quis nemo amet nihil doloremque ducimus atque tempore, quos blanditiis soluta repellendus! Mollitia quo cumque atque repellendus sunt.</p>
+            <!-- Image -->
+            
+            <div class="row mb-4">
+                <div class="col-md-4 image-1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu5OeYesxZYjS_ZcFUoN80NP1OFrJ7tud8RA&usqp=CAU" class="img-fluid" width="100%">
+                </div>
+                <div class="col-md-4 image-2">
+                    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdKYe00NaD5SQjIMvXYPssq0r1dXJggL3ZIg&usqp=CAU" class="img-fluid" width="100%"> -->
+                </div>
+                <div class="col-md-4 image-3">
+                    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBo03VW33bPTkKaMkBP6g5aR5_cTEYZrgV0Q&usqp=CAU" class="img-fluid" width="100%"> -->
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4 image-4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkOtZ_GI7ohqAi7rnE5i4jqPxXefnRY8XH2w&usqp=CAU" class="img-fluid" width="100%">
+                </div>
+                <div class="col-md-4 image-5">
+                    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt9eyGLa88WSonSIn2k7D_zPcZFepai5Y7vg&usqp=CAU" class="img-fluid" width="100%"> -->
+                </div>
+                <div class="col-md-4 image-6">
+                    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2V6Kh3ZuanSHZ5YQkJclDtX5rjoDB66gFmw&usqp=CAU" class="img-fluid" width="100%"> -->
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4 image-7">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlMlEyNrK0rWWxhSfs8-cftv_uSvOzgx4n3g&usqp=CAU" class="img-fluid" width="100%">
+                </div>
+                <div class="col-md-4 image-8">
+                    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrCTrPgHApSQ_hO8-5Xi72ifAMSd6FsMQqAQ&usqp=CAU" class="img-fluid" width="100%"> -->
+                </div>
+                <div class="col-md-4 image-9">
+                    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlQiGiiTHr9WTvJvwP9y55i_qTygBhFHrV5g&usqp=CAU" class="img-fluid" width="100%"> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy; CAT@WORLD Official 2022</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">CONTACT</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>EMAIL</label>
+                            <input type="email" placeholder="INPUT YOUR EMAIL" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>TITLE</label>
+                            <input type="text" placeholder="PROPOSE A TOPIC" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>DETAIL</label>
+                            <textarea id="" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">CANCEL</button>
+                    <button class="btn btn-success">TURN IN</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

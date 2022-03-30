@@ -1,0 +1,90 @@
+*{
+    font-family: 'Itim', cursive;
+}
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-image-1{
+    background-image: url('https://wallpaperaccess.com/full/255883.jpg');
+    background-size: cover;
+}
+
+.carousel-image-2{
+    background-image: url('https://www.teahub.io/photos/full/216-2165126_cat-wall-paper-4k.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3{
+    background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700034923-1024x576.jpg');
+    background-size: cover;
+}
+
+.carousel-image-4{
+    background-image: url('https://cutewallpaper.org/21/4k-cat-wallpaper/Cat-4K-Wallpapers-Top-Free-Cat-4K-Backgrounds-.jpg');
+    background-size: cover;
+}
+
+#about{
+    min-height: 200px;
+    position: relative;
+    background-image: url("image/iceland-5586225_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:#fff;
+    background-attachment: fixed;
+}
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+/* .image-1 {
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu5OeYesxZYjS_ZcFUoN80NP1OFrJ7tud8RA&usqp=CAU);
+background-size: cover;
+} */
+
+.image-2 {
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdKYe00NaD5SQjIMvXYPssq0r1dXJggL3ZIg&usqp=CAU);
+background-size: cover;
+}
+
+.image-3 {
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBo03VW33bPTkKaMkBP6g5aR5_cTEYZrgV0Q&usqp=CAU);
+background-size: cover;
+}
+
+/* .image-4 {
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkOtZ_GI7ohqAi7rnE5i4jqPxXefnRY8XH2w&usqp=CAU);
+background-size: cover;
+} */
+
+.image-5 {
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt9eyGLa88WSonSIn2k7D_zPcZFepai5Y7vg&usqp=CAU);
+background-size: cover;
+}
+
+.image-6 {
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2V6Kh3ZuanSHZ5YQkJclDtX5rjoDB66gFmw&usqp=CAU);
+background-size: cover;
+}
+
+/* .image-7 {
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlMlEyNrK0rWWxhSfs8-cftv_uSvOzgx4n3g&usqp=CAU);
+background-size: cover;
+} */
+
+.image-8 {
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrCTrPgHApSQ_hO8-5Xi72ifAMSd6FsMQqAQ&usqp=CAU);
+background-size: cover;
+}
+
+.image-9 {
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlQiGiiTHr9WTvJvwP9y55i_qTygBhFHrV5g&usqp=CAU);
+background-size: cover;
+}
